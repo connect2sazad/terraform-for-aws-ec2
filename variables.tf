@@ -1,0 +1,27 @@
+variable "inbound_ports" {
+  type = list(number)
+}
+
+variable "instance_type" {
+  type = string
+}
+
+variable "access_key" {
+  type = string
+}
+
+variable "secret_key" {
+  type = string
+}
+
+variable "region" {
+  type = string
+}
+
+variable "image_name" {
+  type = string
+}
+
+variable "owners" {
+  type = string
+}
